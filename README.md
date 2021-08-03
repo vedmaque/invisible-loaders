@@ -1,24 +1,10 @@
 # invisible-loader
 
-## Project setup
-```
-npm install
-```
+### Not magic
+- enable 1st loader
+- enable 2nd loader - everything is fine
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+### Magic
+- enable only 2nd loader - it isn't visible
+- enable any loader but 1st - they aren't visible
+- enable 1st loader - every loader now visible
